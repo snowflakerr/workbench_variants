@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:warped_stems"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:warped_cobblestone_smoker"
+  }
+}

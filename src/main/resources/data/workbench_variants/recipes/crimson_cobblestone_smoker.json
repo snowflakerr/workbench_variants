@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:crimson_stems"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:crimson_cobblestone_smoker"
+  }
+}

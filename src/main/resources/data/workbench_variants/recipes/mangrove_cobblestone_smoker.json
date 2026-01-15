@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:mangrove_logs"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:mangrove_cobblestone_smoker"
+  }
+}

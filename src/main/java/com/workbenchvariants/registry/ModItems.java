@@ -7,15 +7,28 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import com.workbenchvariants.registry.benchgrouper.ModItemGroups;
+import java.util.Map;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WorkbenchVariants.MODID);
 
-    public static final RegistryObject<Item> BLACKSTONE_FURNACE_ITEM =
-            ITEMS.register("blackstone_furnace",
-                    () -> new BlockItem(ModBlocks.BLACKSTONE_FURNACE.get(), new Item.Properties()));
+    // ================================= FURNACE VARIANTS =================================
+    public static final Map<String, RegistryObject<Item>> FURNACE_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.FURNACES,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 
-    public static final RegistryObject<Item> DEEPSLATE_FURNACE_ITEM =
-            ITEMS.register("deepslate_furnace",
-                    () -> new BlockItem(ModBlocks.DEEPSLATE_FURNACE.get(), new Item.Properties()));
+    // ================================= SMOKER VARIANTS ==================================
+    public static final Map<String, RegistryObject<Item>> SMOKER_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.SMOKERS,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 }

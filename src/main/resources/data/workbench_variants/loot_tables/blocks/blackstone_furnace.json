@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "workbench_variants:blackstone_furnace"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

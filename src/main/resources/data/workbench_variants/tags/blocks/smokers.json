@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:spruce_cobblestone_smoker",
+    "workbench_variants:birch_cobblestone_smoker",
+    "workbench_variants:jungle_cobblestone_smoker",
+    "workbench_variants:acacia_cobblestone_smoker",
+    "workbench_variants:dark_oak_cobblestone_smoker",
+    "workbench_variants:mangrove_cobblestone_smoker",
+    "workbench_variants:cherry_cobblestone_smoker",
+    "workbench_variants:bamboo_cobblestone_smoker",
+    "workbench_variants:crimson_cobblestone_smoker",
+    "workbench_variants:warped_cobblestone_smoker",
+
+    "workbench_variants:acacia_blackstone_smoker",
+    "workbench_variants:acacia_deepslate_smoker",
+    "workbench_variants:bamboo_blackstone_smoker",
+    "workbench_variants:bamboo_deepslate_smoker",
+    "workbench_variants:birch_blackstone_smoker",
+    "workbench_variants:birch_deepslate_smoker",
+    "workbench_variants:cherry_blackstone_smoker",
+    "workbench_variants:cherry_deepslate_smoker",
+    "workbench_variants:crimson_blackstone_smoker",
+    "workbench_variants:crimson_deepslate_smoker",
+    "workbench_variants:dark_oak_blackstone_smoker",
+    "workbench_variants:dark_oak_deepslate_smoker",
+    "workbench_variants:jungle_blackstone_smoker",
+    "workbench_variants:jungle_deepslate_smoker",
+    "workbench_variants:mangrove_blackstone_smoker",
+    "workbench_variants:mangrove_deepslate_smoker",
+    "workbench_variants:oak_blackstone_smoker",
+    "workbench_variants:oak_deepslate_smoker",
+    "workbench_variants:spruce_blackstone_smoker",
+    "workbench_variants:spruce_deepslate_smoker",
+    "workbench_variants:warped_blackstone_smoker",
+    "workbench_variants:warped_deepslate_smoker"
+  ]
+}

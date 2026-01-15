@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "workbench_variants:block/furnaces/blackstone_furnace_front",
+    "side":  "workbench_variants:block/furnaces/blackstone_furnace_side",
+    "top":   "workbench_variants:block/furnaces/blackstone_furnace_top"
+  }
+}

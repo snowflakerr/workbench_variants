@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "workbench_variants:blackstone_furnace",
-    "workbench_variants:deepslate_furnace"
+    {
+      "id": "#workbench_variants:smokers",
+      "required": false
+    },
+    {
+      "id": "#workbench_variants:furnaces",
+      "required": false
+    }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:blackstone_furnace",
+    "workbench_variants:deepslate_furnace"
+  ]
+}

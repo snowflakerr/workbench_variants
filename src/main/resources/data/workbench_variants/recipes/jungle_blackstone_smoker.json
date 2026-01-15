@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:jungle_logs"
+    },
+    "F": {
+      "item": "workbench_variants:blackstone_furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:jungle_blackstone_smoker"
+  }
+}

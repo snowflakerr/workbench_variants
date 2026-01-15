@@ -14,8 +14,8 @@ public class ModCreativeTabs {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS
                 || event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 
-            event.accept(ModBlocks.BLACKSTONE_FURNACE);
-            event.accept(ModBlocks.DEEPSLATE_FURNACE);
+            ModBlocks.FURNACES.values().forEach(event::accept);
+            ModBlocks.SMOKERS.values().forEach(event::accept);
         }
     }
 }

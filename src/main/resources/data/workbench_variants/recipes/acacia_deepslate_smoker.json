@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:acacia_logs"
+    },
+    "F": {
+      "item": "workbench_variants:deepslate_furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:acacia_deepslate_smoker"
+  }
+}

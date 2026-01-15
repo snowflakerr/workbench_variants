@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LFL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:oak_logs"
+    },
+    "F": {
+      "item": "workbench_variants:blackstone_furnace"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:oak_blackstone_smoker"
+  }
+}

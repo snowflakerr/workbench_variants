@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "workbench_variants:deepslate_furnace"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

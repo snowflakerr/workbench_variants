@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+        "bottom": "workbench_variants:block/smokers/bamboo_deepslate_smoker_bottom",
+        "front": "workbench_variants:block/smokers/bamboo_deepslate_smoker_front_on",
+        "side": "workbench_variants:block/smokers/bamboo_deepslate_smoker_side",
+        "top": "workbench_variants:block/smokers/bamboo_deepslate_smoker_top"
+    }
+}
