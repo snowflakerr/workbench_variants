@@ -5,8 +5,6 @@ Minecraft Forge mod for **Minecraft 1.20.1** that combines and ports functional 
 ---
 
 ## What This Mod Is
-
-Workbench Variants:
 - Combines multiple functional block variants into **one cohesive Forge mod**
 - Preserves **vanilla-accurate behavior** (GUIs, smelting rules, interactions)
 - Adds **configuration controls** so you can disable certain blocks in-game (Hey maybe you might have other "variant" mods installed)
