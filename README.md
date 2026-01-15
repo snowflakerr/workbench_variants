@@ -20,6 +20,42 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Blackstone Furnace**
 - **Deepslate Furnace**
 
+### Smokers
+- **Spruce Cobblestone Smoker**
+- **Birch Cobblestone Smoker**
+- **Jungle Cobblestone Smoker**
+- **Acacia Cobblestone Smoker**
+- **Dark Oak Cobblestone Smoker**
+- **Mangrove Cobblestone Smoker**
+- **Cherry Cobblestone Smoker**
+- **Bamboo Cobblestone Smoker**
+- **Crimson Cobblestone Smoker**
+- **Warped Cobblestone Smoker**
+
+- **Oak Blackstone Smoker**
+- **Spruce Blackstone Smoker**
+- **Birch Blackstone Smoker**
+- **Jungle Blackstone Smoker**
+- **Acacia Blackstone Smoker**
+- **Dark Oak Blackstone Smoker**
+- **Mangrove Blackstone Smoker**
+- **Cherry Blackstone Smoker**
+- **Bamboo Blackstone Smoker**
+- **Crimson Blackstone Smoker**
+- **Warped Blackstone Smoker**
+
+- **Oak Deepslate Smoker**
+- **Spruce Deepslate Smoker**
+- **Birch Deepslate Smoker**
+- **Jungle Deepslate Smoker**
+- **Acacia Deepslate Smoker**
+- **Dark Oak Deepslate Smoker**
+- **Mangrove Deepslate Smoker**
+- **Cherry Deepslate Smoker**
+- **Bamboo Deepslate Smoker**
+- **Crimson Deepslate Smoker**
+- **Warped Deepslate Smoker**
+
 ---
 
 ## Planned Features
@@ -42,7 +78,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - Looms
 - Shields
 - Smithing Tables
-- Smokers
 - Torches
 
 ---
