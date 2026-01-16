@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:oak_cartography_table",
+    "workbench_variants:spruce_cartography_table",
+    "workbench_variants:birch_cartography_table",
+    "workbench_variants:jungle_cartography_table",
+    "workbench_variants:acacia_cartography_table",
+    "workbench_variants:mangrove_cartography_table",
+    "workbench_variants:cherry_cartography_table",
+    "workbench_variants:bamboo_cartography_table",
+    "workbench_variants:crimson_cartography_table",
+    "workbench_variants:warped_cartography_table"
+  ]
+}

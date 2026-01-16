@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/cartographytables/acacia_cartography_table"
+        }
+    }
+}

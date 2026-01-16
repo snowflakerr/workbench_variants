@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/cartographytables/bamboo_cartography_table"
+        }
+    }
+}

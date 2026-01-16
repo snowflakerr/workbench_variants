@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "WW ",
+    "WW "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:oak_cartography_table"
+  }
+}

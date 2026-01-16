@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "WW ",
+    "WW "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:jungle_cartography_table"
+  }
+}

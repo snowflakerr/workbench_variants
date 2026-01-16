@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import com.workbenchvariants.content.VariantFurnaceBlock;
 import com.workbenchvariants.content.VariantSmokerBlock;
+import com.workbenchvariants.content.VariantCartographyTableBlock;
 
 import com.workbenchvariants.registry.benchgrouper.ModBlockGroups;
 
@@ -37,11 +38,8 @@ public class ModBlocks {
     // ====================================================================================
 
     // ================================= SMOKER VARIANTS ==================================
-    public static final List<String> SMOKER_IDS = buildSmokerIds();
-
-    private static List<String> buildSmokerIds() {
-        List<String> ids = new ArrayList<>();
-
+    public static final List<String> SMOKER_IDS = new ArrayList<>();
+    static {
         String[] woodBase = {
                 "spruce", "birch", "jungle", "acacia",
                 "dark_oak", "mangrove", "cherry",
@@ -52,13 +50,11 @@ public class ModBlocks {
                 .toArray(String[]::new);
 
         // Cobblestone smokers (no oak)
-        for (String wood : woodBase) { ids.add(wood + "_cobblestone_smoker"); }
+        for (String wood : woodBase) { SMOKER_IDS.add(wood + "_cobblestone_smoker"); }
         // Blackstone smokers
-        for (String wood : woodWithOak) { ids.add(wood + "_blackstone_smoker"); }
+        for (String wood : woodWithOak) { SMOKER_IDS.add(wood + "_blackstone_smoker"); }
         // Deepslate smokers
-        for (String wood : woodWithOak) { ids.add(wood + "_deepslate_smoker"); }
-
-        return ids;
+        for (String wood : woodWithOak) { SMOKER_IDS.add(wood + "_deepslate_smoker"); }
     }
 
     public static final Map<String, RegistryObject<Block>> SMOKERS =
@@ -68,4 +64,23 @@ public class ModBlocks {
                     () -> new VariantSmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER))
             );
     // ====================================================================================
+
+    // =============================== CARTOGRAPHY VARIANTS ===============================
+    public static final List<String> CARTOGRAPHY_IDS = new ArrayList<>();
+    static {
+        String[] woods = {
+                "oak", "spruce", "birch", "jungle", "acacia",
+                "mangrove", "cherry", "bamboo", "crimson", "warped"
+        };
+
+        for (String wood : woods) { CARTOGRAPHY_IDS.add(wood + "_cartography_table"); }
+    }
+
+    public static final Map<String, RegistryObject<Block>> CARTOGRAPHY_TABLES =
+            ModBlockGroups.registerBlockGroup(
+                    BLOCKS,
+                    CARTOGRAPHY_IDS,
+                    () -> new VariantCartographyTableBlock(BlockBehaviour.Properties.copy(Blocks.CARTOGRAPHY_TABLE))
+            );
+    // ========================================================================================
 }

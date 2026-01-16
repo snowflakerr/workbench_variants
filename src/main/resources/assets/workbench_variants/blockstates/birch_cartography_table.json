@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/cartographytables/birch_cartography_table"
+        }
+    }
+}

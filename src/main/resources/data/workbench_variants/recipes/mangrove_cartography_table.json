@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "WW ",
+    "WW "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:mangrove_cartography_table"
+  }
+}

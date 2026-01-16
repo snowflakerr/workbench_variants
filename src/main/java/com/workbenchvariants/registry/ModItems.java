@@ -31,4 +31,13 @@ public class ModItems {
                     Item.Properties::new
             );
     // ====================================================================================
+
+    // =============================== CARTOGRAPHY VARIANTS ===============================
+    public static final Map<String, RegistryObject<Item>> CARTOGRAPHY_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.CARTOGRAPHY_TABLES,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 }

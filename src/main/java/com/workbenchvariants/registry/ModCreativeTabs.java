@@ -16,6 +16,7 @@ public class ModCreativeTabs {
 
             ModBlocks.FURNACES.values().forEach(event::accept);
             ModBlocks.SMOKERS.values().forEach(event::accept);
+            ModBlocks.CARTOGRAPHY_TABLES.values().forEach(event::accept);
         }
     }
 }

@@ -32,5 +32,15 @@
   "block.workbench_variants.cherry_deepslate_smoker": "Cherry Deepslate Smoker" ,
   "block.workbench_variants.bamboo_deepslate_smoker": "Bamboo Deepslate Smoker" ,
   "block.workbench_variants.crimson_deepslate_smoker": "Crimson Deepslate Smoker" ,
-  "block.workbench_variants.warped_deepslate_smoker": "Warped Deepslate Smoker"
+  "block.workbench_variants.warped_deepslate_smoker": "Warped Deepslate Smoker",
+  "block.workbench_variants.oak_cartography_table": "Oak Cartography Table",
+  "block.workbench_variants.spruce_cartography_table": "Spruce Cartography Table",
+  "block.workbench_variants.birch_cartography_table": "Birch Cartography Table",
+  "block.workbench_variants.jungle_cartography_table": "Jungle Cartography Table",
+  "block.workbench_variants.acacia_cartography_table": "Acacia Cartography Table",
+  "block.workbench_variants.mangrove_cartography_table": "Mangrove Cartography Table",
+  "block.workbench_variants.cherry_cartography_table": "Cherry Cartography Table",
+  "block.workbench_variants.bamboo_cartography_table": "Bamboo Cartography Table",
+  "block.workbench_variants.crimson_cartography_table": "Crimson Cartography Table",
+  "block.workbench_variants.warped_cartography_table": "Warped Cartography Table"
 }
