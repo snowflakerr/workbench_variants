@@ -11,6 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 import com.workbenchvariants.content.VariantFurnaceBlock;
 import com.workbenchvariants.content.VariantSmokerBlock;
 import com.workbenchvariants.content.VariantCartographyTableBlock;
+import com.workbenchvariants.content.VariantSmithingTableBlock;
 
 import com.workbenchvariants.registry.benchgrouper.ModBlockGroups;
 
@@ -29,6 +30,7 @@ public class ModBlocks {
             "blackstone_furnace",
             "deepslate_furnace"
     );
+
     public static final Map<String, RegistryObject<Block>> FURNACES =
             ModBlockGroups.registerBlockGroup(
                     BLOCKS,
@@ -72,7 +74,6 @@ public class ModBlocks {
                 "oak", "spruce", "birch", "jungle", "acacia",
                 "mangrove", "cherry", "bamboo", "crimson", "warped"
         };
-
         for (String wood : woods) { CARTOGRAPHY_IDS.add(wood + "_cartography_table"); }
     }
 
@@ -81,6 +82,24 @@ public class ModBlocks {
                     BLOCKS,
                     CARTOGRAPHY_IDS,
                     () -> new VariantCartographyTableBlock(BlockBehaviour.Properties.copy(Blocks.CARTOGRAPHY_TABLE))
+            );
+    // ========================================================================================
+
+    // ================================== SMITHING VARIANTS ===================================
+    public static final List<String> SMITHING_IDS = new ArrayList<>();
+    static {
+        String[] woods = {
+                "acacia", "bamboo", "birch", "cherry", "crimson",
+                "dark_oak", "jungle", "mangrove", "oak", "spruce", "warped"
+        };
+        for (String wood : woods) { SMITHING_IDS.add(wood + "_smithing_table"); }
+    }
+
+    public static final Map<String, RegistryObject<Block>> SMITHING_TABLES =
+            ModBlockGroups.registerBlockGroup(
+                    BLOCKS,
+                    SMITHING_IDS,
+                    () -> new VariantSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE))
             );
     // ========================================================================================
 }

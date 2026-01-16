@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down": "workbench_variants:block/smithingtables/jungle_smithing_table_bottom",
+        "east": "workbench_variants:block/smithingtables/jungle_smithing_table_side",
+        "north": "workbench_variants:block/smithingtables/jungle_smithing_table_front",
+        "particle": "workbench_variants:block/smithingtables/jungle_smithing_table_front",
+        "south": "workbench_variants:block/smithingtables/jungle_smithing_table_front",
+        "up": "minecraft:block/smithing_table_top",
+        "west": "workbench_variants:block/smithingtables/jungle_smithing_table_side"
+    }
+}

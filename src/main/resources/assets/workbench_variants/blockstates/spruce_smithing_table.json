@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/smithingtables/spruce_smithing_table"
+        }
+    }
+}

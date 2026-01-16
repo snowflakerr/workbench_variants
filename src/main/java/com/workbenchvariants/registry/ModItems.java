@@ -40,4 +40,13 @@ public class ModItems {
                     Item.Properties::new
             );
     // ====================================================================================
+
+    // ================================ SMITHING VARIANTS =================================
+    public static final Map<String, RegistryObject<Item>> SMITHING_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.SMITHING_TABLES,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 }

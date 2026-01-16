@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/smithingtables/dark_oak_smithing_table"
+        }
+    }
+}

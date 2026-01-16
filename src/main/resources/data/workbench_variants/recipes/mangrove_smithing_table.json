@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+    "WW ",
+    "WW "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "workbench_variants:mangrove_smithing_table"
+  }
+}

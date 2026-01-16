@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smithing_table",
+
+    "workbench_variants:oak_smithing_table",
+    "workbench_variants:spruce_smithing_table",
+    "workbench_variants:birch_smithing_table",
+    "workbench_variants:jungle_smithing_table",
+    "workbench_variants:acacia_smithing_table",
+    "workbench_variants:dark_oak_smithing_table",
+    "workbench_variants:mangrove_smithing_table",
+    "workbench_variants:cherry_smithing_table",
+    "workbench_variants:bamboo_smithing_table",
+    "workbench_variants:crimson_smithing_table",
+    "workbench_variants:warped_smithing_table"
+  ]
+}

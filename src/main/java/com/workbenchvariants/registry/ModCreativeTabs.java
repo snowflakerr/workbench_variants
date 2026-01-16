@@ -11,12 +11,14 @@ public class ModCreativeTabs {
 
     @SubscribeEvent
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS
-                || event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
-
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS || event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
             ModBlocks.FURNACES.values().forEach(event::accept);
-            ModBlocks.SMOKERS.values().forEach(event::accept);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             ModBlocks.CARTOGRAPHY_TABLES.values().forEach(event::accept);
+            ModBlocks.SMITHING_TABLES.values().forEach(event::accept);
+            ModBlocks.SMOKERS.values().forEach(event::accept);
         }
     }
 }

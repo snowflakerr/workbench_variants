@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/smithingtables/jungle_smithing_table"
+        }
+    }
+}

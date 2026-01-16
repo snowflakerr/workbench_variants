@@ -42,5 +42,16 @@
   "block.workbench_variants.cherry_cartography_table": "Cherry Cartography Table",
   "block.workbench_variants.bamboo_cartography_table": "Bamboo Cartography Table",
   "block.workbench_variants.crimson_cartography_table": "Crimson Cartography Table",
-  "block.workbench_variants.warped_cartography_table": "Warped Cartography Table"
+  "block.workbench_variants.warped_cartography_table": "Warped Cartography Table",
+  "block.workbench_variants.oak_smithing_table": "Oak Smithing Table",
+  "block.workbench_variants.spruce_smithing_table": "Spruce Smithing Table",
+  "block.workbench_variants.birch_smithing_table": "Birch Smithing Table",
+  "block.workbench_variants.jungle_smithing_table": "Jungle Smithing Table",
+  "block.workbench_variants.acacia_smithing_table": "Acacia Smithing Table",
+  "block.workbench_variants.dark_oak_smithing_table": "Dark Oak Smithing Table",
+  "block.workbench_variants.mangrove_smithing_table": "Mangrove Smithing Table",
+  "block.workbench_variants.cherry_smithing_table": "Cherry Smithing Table",
+  "block.workbench_variants.bamboo_smithing_table": "Bamboo Smithing Table",
+  "block.workbench_variants.crimson_smithing_table": "Crimson Smithing Table",
+  "block.workbench_variants.warped_smithing_table": "Warped Smithing Table"
 }

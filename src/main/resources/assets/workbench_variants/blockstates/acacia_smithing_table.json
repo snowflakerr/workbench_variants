@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "workbench_variants:block/smithingtables/acacia_smithing_table"
+        }
+    }
+}

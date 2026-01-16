@@ -8,6 +8,10 @@
     {
       "id": "#workbench_variants:furnaces",
       "required": false
+    },
+    {
+      "id": "#workbench_variants:smithingtables",
+      "required": false
     }
   ]
 }
