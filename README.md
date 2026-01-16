@@ -77,7 +77,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - Beds
 - Beehives
 - Bookshelves
-- Cartography Tables
 - Chests
 - Chiseled Bookshelves
 - Composters
