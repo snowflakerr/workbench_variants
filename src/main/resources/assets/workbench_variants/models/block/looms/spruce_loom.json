@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+        "bottom": "workbench_variants:block/looms/spruce_loom_bottom",
+        "front": "workbench_variants:block/looms/spruce_loom_front",
+        "side": "workbench_variants:block/looms/spruce_loom_side",
+        "top": "workbench_variants:block/looms/spruce_loom_top"
+    }
+}

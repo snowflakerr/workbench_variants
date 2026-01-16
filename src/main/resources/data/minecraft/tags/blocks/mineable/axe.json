@@ -4,6 +4,10 @@
     {
       "id": "#workbench_variants:cartographytables",
       "required": false
+    },
+    {
+      "id": "#workbench_variants:looms",
+      "required": false
     }
   ]
 }

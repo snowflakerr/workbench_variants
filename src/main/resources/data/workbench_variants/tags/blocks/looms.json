@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:acacia_loom",
+    "workbench_variants:bamboo_loom",
+    "workbench_variants:birch_loom",
+    "workbench_variants:cherry_loom",
+    "workbench_variants:crimson_loom",
+    "workbench_variants:dark_oak_loom",
+    "workbench_variants:jungle_loom",
+    "workbench_variants:mangrove_loom",
+    "workbench_variants:spruce_loom",
+    "workbench_variants:warped_loom"
+  ]
+}

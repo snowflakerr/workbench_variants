@@ -19,6 +19,7 @@ public class ModCreativeTabs {
             ModBlocks.CARTOGRAPHY_TABLES.values().forEach(event::accept);
             ModBlocks.SMITHING_TABLES.values().forEach(event::accept);
             ModBlocks.SMOKERS.values().forEach(event::accept);
+            ModBlocks.LOOMS.values().forEach(event::accept);
         }
     }
 }

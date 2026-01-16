@@ -53,5 +53,15 @@
   "block.workbench_variants.cherry_smithing_table": "Cherry Smithing Table",
   "block.workbench_variants.bamboo_smithing_table": "Bamboo Smithing Table",
   "block.workbench_variants.crimson_smithing_table": "Crimson Smithing Table",
-  "block.workbench_variants.warped_smithing_table": "Warped Smithing Table"
+  "block.workbench_variants.warped_smithing_table": "Warped Smithing Table",
+  "block.workbench_variants.spruce_loom": "Spruce Loom",
+  "block.workbench_variants.birch_loom": "Birch Loom",
+  "block.workbench_variants.jungle_loom": "Jungle Loom",
+  "block.workbench_variants.acacia_loom": "Acacia Loom",
+  "block.workbench_variants.dark_oak_loom": "Dark Oak Loom",
+  "block.workbench_variants.mangrove_loom": "Mangrove Loom",
+  "block.workbench_variants.cherry_loom": "Cherry Loom",
+  "block.workbench_variants.bamboo_loom": "Bamboo Loom",
+  "block.workbench_variants.crimson_loom": "Crimson Loom",
+  "block.workbench_variants.warped_loom": "Warped Loom"
 }

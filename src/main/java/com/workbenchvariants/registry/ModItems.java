@@ -49,4 +49,13 @@ public class ModItems {
                     Item.Properties::new
             );
     // ====================================================================================
+
+    // ================================== LOOM VARIANTS ===================================
+    public static final Map<String, RegistryObject<Item>> LOOM_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.LOOMS,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 }

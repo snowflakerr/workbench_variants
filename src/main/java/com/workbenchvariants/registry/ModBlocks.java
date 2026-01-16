@@ -12,6 +12,7 @@ import com.workbenchvariants.content.VariantFurnaceBlock;
 import com.workbenchvariants.content.VariantSmokerBlock;
 import com.workbenchvariants.content.VariantCartographyTableBlock;
 import com.workbenchvariants.content.VariantSmithingTableBlock;
+import com.workbenchvariants.content.VariantLoomBlock;
 
 import com.workbenchvariants.registry.benchgrouper.ModBlockGroups;
 
@@ -100,6 +101,24 @@ public class ModBlocks {
                     BLOCKS,
                     SMITHING_IDS,
                     () -> new VariantSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE))
+            );
+    // ========================================================================================
+
+    // ==================================== LOOM VARIANTS =====================================
+    public static final List<String> LOOM_IDS = new ArrayList<>();
+    static {
+        String[] woods = {
+                "acacia", "bamboo", "birch", "cherry", "crimson",
+                "dark_oak", "jungle", "mangrove", "spruce", "warped"
+        };
+        for (String wood : woods) { LOOM_IDS.add(wood + "_loom"); }
+    }
+
+    public static final Map<String, RegistryObject<Block>> LOOMS =
+            ModBlockGroups.registerBlockGroup(
+                    BLOCKS,
+                    LOOM_IDS,
+                    () -> new VariantLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM))
             );
     // ========================================================================================
 }
