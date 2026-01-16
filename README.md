@@ -68,6 +68,19 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Crimson Cartography Table**
 - **Warped Cartography Table**
 
+### Smithing Tables
+- **Acacia Smithing Table**
+- **Bamboo Smithing Table**
+- **Birch Smithing Table**
+- **Cherry Smithing Table**
+- **Crimson Smithing Table**
+- **Dark Oak Smithing Table**
+- **Jungle Smithing Table**
+- **Mangrove Smithing Table**
+- **Oak Smithing Table**
+- **Spruce Smithing Table**
+- **Warped Smithing Table**
+
 ---
 
 ## Planned Features
@@ -88,7 +101,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - Lecterns
 - Looms
 - Shields
-- Smithing Tables
 - Torches
 
 ---
