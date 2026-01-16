@@ -56,6 +56,18 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Crimson Deepslate Smoker**
 - **Warped Deepslate Smoker**
 
+### Cartography Tables
+- **Oak Cartography Table**
+- **Spruce Cartography Table**
+- **Birch Cartography Table**
+- **Jungle Cartography Table**
+- **Acacia Cartography Table**
+- **Mangrove Cartography Table**
+- **Cherry Cartography Table**
+- **Bamboo Cartography Table**
+- **Crimson Cartography Table**
+- **Warped Cartography Table**
+
 ---
 
 ## Planned Features
@@ -65,7 +77,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - Beds
 - Beehives
 - Bookshelves
-- Cartography Tables
 - Chests
 - Chiseled Bookshelves
 - Composters
