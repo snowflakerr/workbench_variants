@@ -81,26 +81,48 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Spruce Smithing Table**
 - **Warped Smithing Table**
 
+### Looms
+- **Acacia Loom**
+- **Bamboo Loom**
+- **Birch Loom**
+- **Cherry Loom**
+- **Crimson Loom**
+- **Dark Oak Loom**
+- **Jungle Loom**
+- **Mangrove Loom**
+- **Spruce Smithing Loom**
+- **Warped Smithing Loom**
+
 ---
 
 ## Planned Features
 - Config File to disable and enable blocks to avoid crafting conflicts with other mods (Some may not want to use Polymorph for alternative recipes)
+- POI functionality (I... can't figure this out yet we'll get there 😭)
+
+---
+
+## Planned Variants
+
+## High Priority (No real equivalent, easy to implement for me)
+- Composters
+- Lecterns
+- Grindstones
+- Beehives
+- Chiseled Bookshelves
+- Fletching Tables
+
+## Low Priority (These have equivalents, so I prefer to save these for last)
 - Armor Stands
 - Barrels
 - Beds
-- Beehives
-- Bookshelves
-- Chests
-- Chiseled Bookshelves
-- Composters
-- Crafting Tables
-- Fletching Tables
 - Frames
-- Grindstones
 - Jukeboxes
-- Lecterns
-- Looms
 - Shields
 - Torches
+
+## Bottom Barrel Priority (LieOnLion already has Forge mods for these, I only implemented the furnaces b/c of compatibility reasons for the smokers)
+- Bookshelves
+- Crafting Tables
+- Chests
 
 ---
