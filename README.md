@@ -1,3 +1,9 @@
+## MASSIVE DISCLAIMER!!! 
+The textures of this mod were made by **LieOn Studios**, not by me! Please support them on Modrinth: https://modrinth.com/organization/lieonstudios
+All the code in this is made by me however, and this is my first mod, so any and all advice is welcome, I know this is not the best implementation.
+
+---
+
 # Workbench Variants
 
 Minecraft Forge mod for **Minecraft 1.20.1** that combines and ports functional block variants originally created by **LieOn Studios** for Fabric, combining them into a single, configurable Forge mod while preserving vanilla behavior and mod compatibility.
