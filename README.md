@@ -1,5 +1,5 @@
 ## MASSIVE DISCLAIMER!!! 
-The textures of this mod were made by **LieOn Studios**, not by me! Please support them on Modrinth: https://modrinth.com/organization/lieonstudios
+The textures of this mod were made by **LieOn Studios**, not by me! Please support them on Modrinth: https://modrinth.com/organization/lieonstudios  
 All the code in this is made by me however, and this is my first mod, so any and all advice is welcome, I know this is not the best implementation.
 
 ---
