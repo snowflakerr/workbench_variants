@@ -121,7 +121,7 @@ This mod does **not** aim to redesign or replace the original works — it exist
 
 ## Planned Variants
 
-## High Priority (No real equivalent, easy to implement for me)
+## High Priority (No real equivalent, hence the urgency)
 - Lecterns (These are WIP... and are extremely broken...)
 - Grindstones
 - Beehives
