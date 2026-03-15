@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:acacia_lectern",
+    "workbench_variants:bamboo_lectern",
+    "workbench_variants:birch_lectern",
+    "workbench_variants:cherry_lectern",
+    "workbench_variants:crimson_lectern",
+    "workbench_variants:dark_oak_lectern",
+    "workbench_variants:jungle_lectern",
+    "workbench_variants:mangrove_lectern",
+    "workbench_variants:spruce_lectern",
+    "workbench_variants:warped_lectern"
+  ]
+}

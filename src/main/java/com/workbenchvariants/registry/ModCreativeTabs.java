@@ -20,6 +20,8 @@ public class ModCreativeTabs {
             ModBlocks.SMITHING_TABLES.values().forEach(event::accept);
             ModBlocks.SMOKERS.values().forEach(event::accept);
             ModBlocks.LOOMS.values().forEach(event::accept);
+            ModBlocks.LECTERNS.values().forEach(event::accept);
+            ModBlocks.COMPOSTERS.values().forEach(event::accept);
         }
     }
 }

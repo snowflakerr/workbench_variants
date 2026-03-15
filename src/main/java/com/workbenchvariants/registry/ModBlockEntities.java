@@ -9,6 +9,7 @@ import com.workbenchvariants.WorkbenchVariants;
 
 import com.workbenchvariants.content.VariantFurnaceBlockEntity;
 import com.workbenchvariants.content.VariantSmokerBlockEntity;
+import com.workbenchvariants.content.VariantLecternBlockEntity;
 
 import com.workbenchvariants.registry.benchgrouper.ModBlockGroups;
 
@@ -31,6 +32,15 @@ public class ModBlockEntities {
                     () -> BlockEntityType.Builder.of(
                             VariantSmokerBlockEntity::new,
                             ModBlockGroups.toBlockArray(ModBlocks.SMOKERS)
+                    ).build(null));
+    // ====================================================================================
+
+    // ================================= LECTERN VARIANTS =================================
+    public static final RegistryObject<BlockEntityType<VariantLecternBlockEntity>> LECTERN_VARIANT =
+            BLOCK_ENTITIES.register("lectern_variant",
+                    () -> BlockEntityType.Builder.of(
+                            VariantLecternBlockEntity::new,
+                            ModBlockGroups.toBlockArray(ModBlocks.LECTERNS)
                     ).build(null));
     // ====================================================================================
 }

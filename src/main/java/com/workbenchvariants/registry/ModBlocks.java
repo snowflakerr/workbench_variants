@@ -13,6 +13,8 @@ import com.workbenchvariants.content.VariantSmokerBlock;
 import com.workbenchvariants.content.VariantCartographyTableBlock;
 import com.workbenchvariants.content.VariantSmithingTableBlock;
 import com.workbenchvariants.content.VariantLoomBlock;
+import com.workbenchvariants.content.VariantLecternBlock;
+import com.workbenchvariants.content.VariantComposterBlock;
 
 import com.workbenchvariants.registry.benchgrouper.ModBlockGroups;
 
@@ -119,6 +121,42 @@ public class ModBlocks {
                     BLOCKS,
                     LOOM_IDS,
                     () -> new VariantLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM))
+            );
+    // ========================================================================================
+
+    // ================================== LECTERN VARIANTS ====================================
+    public static final List<String> LECTERN_IDS = new ArrayList<>();
+    static {
+        String[] woods = {
+                "acacia", "bamboo", "birch", "cherry", "crimson",
+                "dark_oak", "jungle", "mangrove", "spruce", "warped"
+        };
+        for (String wood : woods) { LECTERN_IDS.add(wood + "_lectern"); }
+    }
+
+    public static final Map<String, RegistryObject<Block>> LECTERNS =
+            ModBlockGroups.registerBlockGroup(
+                    BLOCKS,
+                    LECTERN_IDS,
+                    () -> new VariantLecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN))
+            );
+    // ========================================================================================
+
+    // ================================= COMPOSTER VARIANTS ===================================
+    public static final List<String> COMPOSTER_IDS = new ArrayList<>();
+    static {
+        String[] woods = {
+                "acacia", "bamboo", "birch", "cherry", "crimson",
+                "dark_oak", "jungle", "mangrove", "oak", "spruce", "warped"
+        };
+        for (String wood : woods) { COMPOSTER_IDS.add(wood + "_composter"); }
+    }
+
+    public static final Map<String, RegistryObject<Block>> COMPOSTERS =
+            ModBlockGroups.registerBlockGroup(
+                    BLOCKS,
+                    COMPOSTER_IDS,
+                    () -> new VariantComposterBlock(BlockBehaviour.Properties.copy(Blocks.COMPOSTER))
             );
     // ========================================================================================
 }

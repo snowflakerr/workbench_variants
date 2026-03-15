@@ -8,6 +8,14 @@
     {
       "id": "#workbench_variants:looms",
       "required": false
+    },
+    {
+      "id": "#workbench_variants:lecterns",
+      "required": false
+    },
+    {
+      "id": "#workbench_variants:composters",
+      "required": false
     }
   ]
 }

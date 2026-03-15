@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/composter",
+  "textures": {
+    "particle": "workbench_variants:block/composters/acacia_composter_side",
+    "bottom": "workbench_variants:block/composters/acacia_composter_bottom",
+    "side": "workbench_variants:block/composters/acacia_composter_side",
+    "top": "workbench_variants:block/composters/acacia_composter_top",
+    "inside": "minecraft:block/composter_bottom"
+  }
+}

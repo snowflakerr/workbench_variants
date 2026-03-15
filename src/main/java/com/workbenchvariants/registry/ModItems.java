@@ -58,4 +58,22 @@ public class ModItems {
                     Item.Properties::new
             );
     // ====================================================================================
+
+    // ================================= LECTERN VARIANTS =================================
+    public static final Map<String, RegistryObject<Item>> LECTERN_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.LECTERNS,
+                    Item.Properties::new
+            );
+    // ====================================================================================
+
+    // =============================== COMPOSTER VARIANTS ================================
+    public static final Map<String, RegistryObject<Item>> COMPOSTER_ITEMS =
+            ModItemGroups.registerBlockItemGroup(
+                    ITEMS,
+                    ModBlocks.COMPOSTERS,
+                    Item.Properties::new
+            );
+    // ====================================================================================
 }

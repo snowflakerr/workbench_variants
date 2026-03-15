@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "workbench_variants:acacia_composter",
+    "workbench_variants:bamboo_composter",
+    "workbench_variants:birch_composter",
+    "workbench_variants:cherry_composter",
+    "workbench_variants:crimson_composter",
+    "workbench_variants:dark_oak_composter",
+    "workbench_variants:jungle_composter",
+    "workbench_variants:mangrove_composter",
+    "workbench_variants:oak_composter",
+    "workbench_variants:spruce_composter",
+    "workbench_variants:warped_composter"
+  ]
+}
