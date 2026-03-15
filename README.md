@@ -13,7 +13,6 @@ Minecraft Forge mod for **Minecraft 1.20.1** that combines and ports functional 
 ## What This Mod Is
 - Combines multiple functional block variants into **one cohesive Forge mod**
 - Preserves **vanilla-accurate behavior** (GUIs, smelting rules, interactions)
-- Adds **configuration controls** so you can disable certain blocks in-game (Hey maybe you might have other "variant" mods installed)
 - Targets **Minecraft Forge 47.4.10** (1.20.1)
 
 This mod does **not** aim to redesign or replace the original works — it exists to make them available to Forge users, as I cannot find any mods quite like them for more than just crafting tables and chests despite its simplicity.
