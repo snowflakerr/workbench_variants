@@ -95,8 +95,21 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Dark Oak Loom**
 - **Jungle Loom**
 - **Mangrove Loom**
-- **Spruce Smithing Loom**
-- **Warped Smithing Loom**
+- **Spruce Loom**
+- **Warped Loom**
+
+### Composters
+- **Acacia Composter**
+- **Bamboo Composter**
+- **Birch Composter**
+- **Cherry Composter**
+- **Crimson Composter**
+- **Dark Oak Composter**
+- **Jungle Composter**
+- **Mangrove Composter**
+- **Oak Composter**
+- **Spruce Composter**
+- **Warped Composter**
 
 ---
 
@@ -109,8 +122,7 @@ This mod does **not** aim to redesign or replace the original works — it exist
 ## Planned Variants
 
 ## High Priority (No real equivalent, easy to implement for me)
-- Composters
-- Lecterns
+- Lecterns (These are WIP... and are extremely broken...)
 - Grindstones
 - Beehives
 - Chiseled Bookshelves
