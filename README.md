@@ -111,18 +111,30 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Spruce Composter**
 - **Warped Composter**
 
+### Lecterns
+- **Acacia Lectern**
+- **Bamboo Lectern**
+- **Birch Lectern**
+- **Cherry Lectern**
+- **Crimson Lectern**
+- **Dark Oak Lectern**
+- **Jungle Lectern**
+- **Mangrove Lectern**
+- **Spruce Lectern**
+- **Warped Lectern**
+
 ---
 
 ## Planned Features
 - Config File to disable and enable blocks to avoid crafting conflicts with other mods (Some may not want to use Polymorph for alternative recipes)
 - POI functionality (I... can't figure this out yet we'll get there 😭)
+- Redstone functionality (I just really don't want to do this right now the lectern was temperamental as is)
 
 ---
 
 ## Planned Variants
 
 ## High Priority (No real equivalent, hence the urgency)
-- Lecterns (These are WIP... and are extremely broken...)
 - Grindstones
 - Beehives
 - Chiseled Bookshelves
