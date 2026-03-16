@@ -2,9 +2,12 @@ package com.workbenchvariants.content;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -44,6 +47,15 @@ public class VariantLecternBlock extends LecternBlock {
                 ItemStack placed = held.copyWithCount(1);
                 be.setBook(placed);
 
+                level.playSound(
+                        null,
+                        pos,
+                        SoundEvents.BOOK_PUT,
+                        SoundSource.BLOCKS,
+                        1.0F,
+                        1.0F
+                );
+
                 if (!player.getAbilities().instabuild) {
                     held.shrink(1);
                 }
@@ -58,5 +70,30 @@ public class VariantLecternBlock extends LecternBlock {
         }
 
         return InteractionResult.sidedSuccess(level.isClientSide);
+    }
+
+    @Override
+    public void onRemove(BlockState oldState, Level level, BlockPos pos, BlockState newState, boolean isMoving) {
+        // Only do this when the block is actually being replaced by a different block.
+        // This avoids dropping the book when HAS_BOOK / POWERED / other blockstate properties change.
+        if (!oldState.is(newState.getBlock())) {
+            BlockEntity blockEntity = level.getBlockEntity(pos);
+            if (blockEntity instanceof VariantLecternBlockEntity lecternBE) {
+                ItemStack storedBook = lecternBE.getBook();
+                if (!storedBook.isEmpty() && !level.isClientSide) {
+                    ItemEntity itemEntity = new ItemEntity(
+                            level,
+                            pos.getX() + 0.5D,
+                            pos.getY() + 1.0D,
+                            pos.getZ() + 0.5D,
+                            storedBook.copy()
+                    );
+                    itemEntity.setDefaultPickUpDelay();
+                    level.addFreshEntity(itemEntity);
+                }
+            }
+        }
+
+        super.onRemove(oldState, level, pos, newState, isMoving);
     }
 }

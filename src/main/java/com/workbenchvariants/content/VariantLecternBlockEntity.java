@@ -15,7 +15,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
-import net.minecraft.world.inventory.LecternMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.LecternBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -92,6 +91,17 @@ public class VariantLecternBlockEntity extends BlockEntity implements MenuProvid
             if (index == 0) {
                 page = value;
                 setChangedAndSync();
+
+                if (VariantLecternBlockEntity.this.level != null) {
+                    VariantLecternBlockEntity.this.level.playSound(
+                            null,
+                            VariantLecternBlockEntity.this.worldPosition,
+                            net.minecraft.sounds.SoundEvents.BOOK_PAGE_TURN,
+                            net.minecraft.sounds.SoundSource.BLOCKS,
+                            1.0F,
+                            1.0F
+                    );
+                }
             }
         }
 
@@ -196,6 +206,6 @@ public class VariantLecternBlockEntity extends BlockEntity implements MenuProvid
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int containerId, Inventory playerInventory, Player player) {
-        return new LecternMenu(containerId, this.bookAccess, this.dataAccess);
+        return new VariantLecternMenu(containerId, this.bookAccess, this.dataAccess, player);
     }
 }
