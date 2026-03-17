@@ -36,7 +36,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Bamboo Cobblestone Smoker**
 - **Crimson Cobblestone Smoker**
 - **Warped Cobblestone Smoker**
-
 - **Oak Blackstone Smoker**
 - **Spruce Blackstone Smoker**
 - **Birch Blackstone Smoker**
@@ -48,7 +47,6 @@ This mod does **not** aim to redesign or replace the original works — it exist
 - **Bamboo Blackstone Smoker**
 - **Crimson Blackstone Smoker**
 - **Warped Blackstone Smoker**
-
 - **Oak Deepslate Smoker**
 - **Spruce Deepslate Smoker**
 - **Birch Deepslate Smoker**
