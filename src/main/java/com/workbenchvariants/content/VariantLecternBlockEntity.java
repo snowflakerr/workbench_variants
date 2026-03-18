@@ -3,10 +3,12 @@ package com.workbenchvariants.content;
 import com.workbenchvariants.registry.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
+import net.minecraft.util.Mth;
 import net.minecraft.world.Clearable;
 import net.minecraft.world.Container;
 import net.minecraft.world.MenuProvider;
@@ -88,9 +90,10 @@ public class VariantLecternBlockEntity extends BlockEntity implements MenuProvid
 
         @Override
         public void set(int index, int value) {
-            if (index == 0) {
+            if (index == 0 && page != value) {
                 page = value;
                 setChangedAndSync();
+                pulseRedstone();
 
                 if (VariantLecternBlockEntity.this.level != null) {
                     VariantLecternBlockEntity.this.level.playSound(
@@ -142,8 +145,60 @@ public class VariantLecternBlockEntity extends BlockEntity implements MenuProvid
     }
 
     public void setPage(int page) {
-        this.page = page;
-        setChangedAndSync();
+        if (this.page != page) {
+            this.page = page;
+            setChangedAndSync();
+            pulseRedstone();
+        }
+    }
+
+    public int getPageCount() {
+        if (this.book.isEmpty() || !this.book.hasTag()) {
+            return 0;
+        }
+
+        CompoundTag tag = this.book.getTag();
+        if (tag == null || !tag.contains("pages", 9)) {
+            return 1;
+        }
+
+        ListTag pages = tag.getList("pages", 8);
+        return Math.max(1, pages.size());
+    }
+
+    public int getRedstoneSignal() {
+        if (!this.hasBook()) {
+            return 0;
+        }
+
+        int pageCount = this.getPageCount();
+        if (pageCount <= 1) {
+            return 1;
+        }
+
+        return Mth.floor(((float) this.page / (float) (pageCount - 1)) * 14.0F) + 1;
+    }
+
+    private void pulseRedstone() {
+        if (this.level == null) {
+            return;
+        }
+
+        BlockState state = this.getBlockState();
+        if (!state.hasProperty(LecternBlock.POWERED)) {
+            return;
+        }
+
+        if (!state.getValue(LecternBlock.POWERED)) {
+            BlockState poweredState = state.setValue(LecternBlock.POWERED, true);
+            this.level.setBlock(this.worldPosition, poweredState, 3);
+            this.level.updateNeighborsAt(this.worldPosition, poweredState.getBlock());
+            this.level.updateNeighborsAt(this.worldPosition.below(), poweredState.getBlock());
+            this.level.scheduleTick(this.worldPosition, poweredState.getBlock(), 2);
+        } else {
+            this.level.updateNeighborsAt(this.worldPosition, state.getBlock());
+            this.level.updateNeighborsAt(this.worldPosition.below(), state.getBlock());
+        }
     }
 
     private void setChangedAndSync() {
